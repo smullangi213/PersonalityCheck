@@ -1,0 +1,24 @@
+form {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightskyblue;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#personality_result {
+    background-color: lightgreen;
+    padding: 1em;
+    top: 0;
+}

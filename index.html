@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Personality Check! - Home</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles/site.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <h1>Personality Check!</h1>
+            <p>Discover Yourself Today</p>
+        </a>
+        <ul id="navbar">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="personalities.html">16 Personalities</a>
+                <ul>
+                    <li><a href=personalities/istj.html>ISTJ</a></li>
+                    <li><a href=personalities/istp.html>ISTP</a></li>
+                    <li><a href=personalities/isfj.html>ISFJ</a></li>
+                    <li><a href=personalities/isfp.html>ISFP</a></li>
+                    <li><a href=personalities/intj.html>INTJ</a></li>
+                    <li><a href=personalities/intp.html>INTP</a></li>
+                    <li><a href=personalities/infj.html>INFJ</a></li>
+                    <li><a href=personalities/infp.html>INFP</a></li>
+                    <li><a href=personalities/estj.html>ESTJ</a></li>
+                    <li><a href=personalities/estp.html>ESTP</a></li>
+                    <li><a href=personalities/esfj.html>ESFJ</a></li>
+                    <li><a href=personalities/esfp.html>ESFP</a></li>
+                    <li><a href=personalities/entj.html>ENTJ</a></li>
+                    <li><a href=personalities/entp.html>ENTP</a></li>
+                    <li><a href=personalities/enfj.html>ENFJ</a></li>
+                    <li><a href=personalities/enfp.html>ENFP</a></li>
+                </ul>
+            </li>
+
+            <li><a href="test.html">Personality Test</a></li>
+        </ul>
+        <br />
+    </header>
+    <main>
+        <h2>Home</h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <img class="swiper-slide" src="images/small/istj.png" alt="personality_icon" />
+                <img class="swiper-slide" src="images/small/istp.png" alt="personality_icon" />
+                <img class="swiper-slide" src="images/small/isfj.png" alt="personality_icon" />
+                <img class="swiper-slide" src="images/small/isfp.png" alt="personality_icon" />
+                <img class="swiper-slide" src="images/small/intj.png" alt="personality_icon" />
+                <img class="swiper-slide" src="images/small/intp.png" alt="personality_icon" />
+                <img class="swiper-slide" src="images/small/infj.png" alt="personality_icon" />
+                <img class="swiper-slide" src="images/small/infp.png" alt="personality_icon" />
+                <img class="swiper-slide" src="images/small/estj.png" alt="personality_icon" />
+                <img class="swiper-slide" src="images/small/estp.png" alt="personality_icon" />
+                <img class="swiper-slide" src="images/small/esfj.png" alt="personality_icon" />
+                <img class="swiper-slide" src="images/small/esfp.png" alt="personality_icon" />
+                <img class="swiper-slide" src="images/small/entj.png" alt="personality_icon" />
+                <img class="swiper-slide" src="images/small/entp.png" alt="personality_icon" />
+                <img class="swiper-slide" src="images/small/enfj.png" alt="personality_icon" />
+                <img class="swiper-slide" src="images/small/enfp.png" alt="personality_icon" />
+            </div>
+        </div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+
+        <div id="content">
+            <div id="test">
+                <h3><a href="test.html">Take the Personality Test Today to Find Who You Are!</a></h3>
+            </div>
+
+            <div id="description">
+                <h3>Personality Check!</h3>
+                <p>Discover yourself, and everyone around you, with Personality Check! By learning more about your personality, you come one step closer to self understanding, acceptance, and improvement! By understanding the personalities of those around you, you can treat people with the respect and care they need. Welcome to Personality Check!</p>
+                <hr />
+                <p>NOTE: This website is not completely scientifically accurate. Please do not use this as a substitute to professional advice!</p>
+            </div>
+
+            <div id="personalities">
+                <h3><a href="personalities.html">Learn About All 16 Personalities!</a></h3>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="https://www.truity.com/page/16-personality-types-myers-briggs">Image and Personality Information from Truity</a></li>
+            <li><a href="http://www.printerfriend.ly/free-myers-briggs+personality-test-printable/">Personality Test from Victor Delgadillo</a></li>
+        </ul>
+    </footer>
+
+    <!--Swiper JS-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 4,
+            spaceBetween: 20,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
+        });
+
+    </script>
+</body>
+
+</html>

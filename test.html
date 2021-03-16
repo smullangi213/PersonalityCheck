@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Personality Test - Personality Check!</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="scripts/test.js"></script>
+
+    <link rel="stylesheet" href="styles/site.css" />
+    <link rel="stylesheet" href="styles/test.css" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <h1>Personality Check!</h1>
+            <p>Discover Yourself Today</p>
+        </a>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="personalities.html">16 Personalities</a>
+                <ul>
+                    <li><a href=personalities/istj.html>ISTJ</a></li>
+                    <li><a href=personalities/istp.html>ISTP</a></li>
+                    <li><a href=personalities/isfj.html>ISFJ</a></li>
+                    <li><a href=personalities/isfp.html>ISFP</a></li>
+                    <li><a href=personalities/intj.html>INTJ</a></li>
+                    <li><a href=personalities/intp.html>INTP</a></li>
+                    <li><a href=personalities/infj.html>INFJ</a></li>
+                    <li><a href=personalities/infp.html>INFP</a></li>
+                    <li><a href=personalities/estj.html>ESTJ</a></li>
+                    <li><a href=personalities/estp.html>ESTP</a></li>
+                    <li><a href=personalities/esfj.html>ESFJ</a></li>
+                    <li><a href=personalities/esfp.html>ESFP</a></li>
+                    <li><a href=personalities/entj.html>ENTJ</a></li>
+                    <li><a href=personalities/entp.html>ENTP</a></li>
+                    <li><a href=personalities/enfj.html>ENFJ</a></li>
+                    <li><a href=personalities/enfp.html>ENFP</a></li>
+                </ul>
+            </li>
+
+            <li class="active"><a href="test.html">Personality Test</a></li>
+        </ul>
+        <br />
+    </header>
+    <main>
+        <h2>Myers Briggs Personality Test</h2>
+        <h3>Directions: </h3>
+        <ul>
+            <li>For the 20 questions, honestly choose the one that fits you the closest</li>
+            <li>Be honest and general for majority of life situations</li>
+            <li>When you finish the test, scroll to the bottom to find your personality</li>
+            <li>The test isn't perfect - consider results cautiously</li>
+
+        </ul>
+        <form>
+            <fieldset>
+                <legend>1.</legend>
+                <label><input type="radio" name="1" value=1 />Expend energy, enjoy groups</label>
+                <label><input type="radio" name="1" value=0 />Conserve energy, enjoy 1-on-1</label>
+            </fieldset>
+            <fieldset>
+                <legend>2.</legend>
+                <label><input type="radio" name="2" value=1 />Interpret literally</label>
+                <label><input type="radio" name="2" value=0 />Look for meaning and possibilities</label>
+            </fieldset>
+            <fieldset>
+                <legend>3.</legend>
+                <label><input type="radio" name="3" value=1 />Logical, thinking, questioning</label>
+                <label><input type="radio" name="3" value=0 />Empathetic, feeling, accommodating</label>
+            </fieldset>
+            <fieldset>
+                <legend>4.</legend>
+                <label><input type="radio" name="4" value=1 />Organized, orderly</label>
+                <label><input type="radio" name="4" value=0 />Flexible, adaptable</label>
+            </fieldset>
+            <fieldset>
+                <legend>5.</legend>
+                <label><input type="radio" name="5" value=1 />More outgoing, think out loud</label>
+                <label><input type="radio" name="5" value=0 />More reserved, think to yourself</label>
+            </fieldset>
+            <fieldset>
+                <legend>6.</legend>
+                <label><input type="radio" name="6" value=1 />Practical, realistic, experiential</label>
+                <label><input type="radio" name="6" value=0 />Imaginative, innovative, theoretical</label>
+            </fieldset>
+            <fieldset>
+                <legend>7.</legend>
+                <label><input type="radio" name="7" value=1 />Candid, straightforward, frank</label>
+                <label><input type="radio" name="7" value=0 />Tactful, kind, encouraging</label>
+            </fieldset>
+            <fieldset>
+                <legend>8.</legend>
+                <label><input type="radio" name="8" value=1 />Plan, schedule</label>
+                <label><input type="radio" name="8" value=0 />Unplanned, spontaneous</label>
+            </fieldset>
+            <fieldset>
+                <legend>9.</legend>
+                <label><input type="radio" name="9" value=1 />Seek many tasks, public activities, interaction with others</label>
+                <label><input type="radio" name="9" value=0 />Seek private, solitary activities with quiet to concentrate</label>
+            </fieldset>
+            <fieldset>
+                <legend>10.</legend>
+                <label><input type="radio" name="10" value=1 />Standard, usual, conventional</label>
+                <label><input type="radio" name="10" value=0 />Different, novel, unique</label>
+            </fieldset>
+            <fieldset>
+                <legend>11.</legend>
+                <label><input type="radio" name="11" value=1 />Firm, tend to criticize, hold the line</label>
+                <label><input type="radio" name="11" value=0 />Gentle, tend to appreciate, conciliate</label>
+            </fieldset>
+            <fieldset>
+                <legend>12.</legend>
+                <label><input type="radio" name="12" value=1 />regulated, structured</label>
+                <label><input type="radio" name="12" value=0 />easygoing, "live" and "let live"</label>
+            </fieldset>
+            <fieldset>
+                <legend>13.</legend>
+                <label><input type="radio" name="13" value=1 />External, communicative, express yourself</label>
+                <label><input type="radio" name="13" value=0 />Internal, reticent, keep to yourself</label>
+            </fieldset>
+            <fieldset>
+                <legend>14.</legend>
+                <label><input type="radio" name="14" value=1 />Focus on here-and-now</label>
+                <label><input type="radio" name="14" value=0 />Look to the future, global perspective, "big picture"</label>
+            </fieldset>
+            <fieldset>
+                <legend>15.</legend>
+                <label><input type="radio" name="15" value=1 />Tough-minded, just</label>
+                <label><input type="radio" name="15" value=0 />Tender-hearted, merciful</label>
+            </fieldset>
+            <fieldset>
+                <legend>16.</legend>
+                <label><input type="radio" name="16" value=1 />Preparation, plan ahead</label>
+                <label><input type="radio" name="16" value=0 />Go with the flow, adapt as you go</label>
+            </fieldset>
+            <fieldset>
+                <legend>17.</legend>
+                <label><input type="radio" name="17" value=1 />Active, initiative</label>
+                <label><input type="radio" name="17" value=0 />Reflective, deliberate</label>
+            </fieldset>
+            <fieldset>
+                <legend>18.</legend>
+                <label><input type="radio" name="18" value=1 />Facts, things, "what is"</label>
+                <label><input type="radio" name="18" value=0 />ideas, dreams, "what could be," philosophical</label>
+            </fieldset>
+            <fieldset>
+                <legend>19.</legend>
+                <label><input type="radio" name="19" value=1 />Matter of fact, issue-oriented</label>
+                <label><input type="radio" name="19" value=0 />Sensitive, people-oriented, compassionate</label>
+            </fieldset>
+            <fieldset>
+                <legend>20.</legend>
+                <label><input type="radio" name="20" value=1 />Control, govern</label>
+                <label><input type="radio" name="20" value=0 />Latitude, freedom</label>
+            </fieldset>
+        </form>
+
+        <div id="personality_result">
+            <h3 id="personality_title">Your Personality: infp</h3>
+            <img id="personality_img" src="images/small/infp.png" alt="your_personality_image" />
+            <br />
+            <a href="personalities.html">Learn More About the Personalities</a>
+            <br />
+            <a id="personality_link" href="personalities/infp.html">About Your Personality</a>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://www.truity.com/page/16-personality-types-myers-briggs">Image and Personality Information from Truity</a></li>
+            <li><a href="http://www.printerfriend.ly/free-myers-briggs+personality-test-printable/">Personality Test from Victor Delgadillo</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
+<!--Credit for test goes to: http://www.printerfriend.ly/wp-content/uploads/2020/02/Myers-briggs-test-PDF.pdf-->
